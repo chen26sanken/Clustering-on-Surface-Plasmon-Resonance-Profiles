@@ -28,6 +28,9 @@ The code accompanying this manuscript processes raw SPR data, applies clustering
 
 **Fig. 3:** SPR profiles in hit clusters. The different clusters represent varying kinetic behaviors of small molecules binding to CAG repeat DNA. Detailed insights from the results can be found in the accompanying manuscript.
 
+![cluster_visualization](https://github.com/chen26sanken/Clustering_with_SPR_profiles/assets/141697122/b9144f87-dd44-4482-a29b-5c32ac048425)
+**Fig. 4:** Visualization of hit clusters and their four characteristic patterns. (A) UMAP, (B) t-SNE, and (C) PCA analysis. The represented cluster colors are consisted with Fig. 3.
+
 ## Installation Instructions
 
 To reproduce the analysis and visualizations, install the required software packages:
