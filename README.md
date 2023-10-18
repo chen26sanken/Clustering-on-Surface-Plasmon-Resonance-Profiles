@@ -9,7 +9,6 @@ This repository presents an analysis of hit patterns on SPR sensorgrams for smal
 Surface Plasmon Resonance (SPR) is a powerful tool for analyzing molecular interactions in real time. The assay provides insights into reaction dynamics, making it invaluable in molecular biology and pharmacology.
 
 ![SPR Image](https://github.com/chen26sanken/Clustering_with_SPR_profiles/assets/141697122/856c0589-8f9b-4603-9073-f7d060f342aa)
-
 **Fig. 1:** Graphical illustration of this study. (A) Target nucleic acids are immobilized on a gold-glass interface. Small molecules flow through the immobilized targets, binding in phase 1 and washing out in phase 2. Kon and Koff represent the association and dissociation constants, respectively.
 
 ### Clustering SPR Profiles
@@ -17,17 +16,16 @@ Surface Plasmon Resonance (SPR) is a powerful tool for analyzing molecular inter
 Clustering techniques group similar SPR profiles, revealing patterns and trends that might be missed with individual analysis.
 
 ![Clustering Image](https://github.com/chen26sanken/Clustering_with_SPR_profiles/assets/141697122/28bb41e7-70f9-4806-8edc-1418d620575c)
-
 **Fig. 2:** The observed SPR sensorgrams, which include binding kinetic features, are grouped by clustering algorithms into different patterns. Only hit patterns are displayed here.
 
-### Code and Results 
+## Code and Results 
 
 The code accompanying this manuscript processes raw SPR data, applies clustering algorithms, and visualizes the results. The outcomes are a series of clustered hit patterns that showcase various binding behaviors of small molecules to the CAG repeat DNA.
 
 ![clustering_hits](https://github.com/chen26sanken/Clustering_with_SPR_profiles/assets/141697122/78b409e9-1c26-402c-b80a-38dc46107013)
-
 **Fig. 3:** SPR profiles in hit clusters. The different clusters represent varying kinetic behaviors of small molecules binding to CAG repeat DNA. Detailed insights from the results can be found in the accompanying manuscript.
 
+<br>
 
 ![cluster_visualization](https://github.com/chen26sanken/Clustering_with_SPR_profiles/assets/141697122/b9144f87-dd44-4482-a29b-5c32ac048425)
 **Fig. 4:** Visualization of hit clusters and their four characteristic patterns. (A) UMAP, (B) t-SNE, and (C) PCA analysis. The represented cluster colors are consisted with Fig. 3.
