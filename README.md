@@ -1,6 +1,6 @@
 # Deciphering the Hit Patterns on SPR Sensorgrams of Small Molecules Targeting CAG Repeat DNA
 
-This repository presents an analysis of hit patterns on SPR sensorgrams for small molecules that target CAG repeat DNA. The main objective is to cluster and categorize these hit patterns for better understanding and prediction.
+This repository presents an analysis of hit patterns on SPR sensorgrams for small molecules that target CAG repeat DNA. The main objective is to cluster and categorize these hit patterns for a better understanding and prediction.
 
 ## Overview
 
@@ -10,19 +10,27 @@ Surface Plasmon Resonance (SPR) is a powerful tool for analyzing molecular inter
 
 ![SPR Image](https://github.com/chen26sanken/Clustering_with_SPR_profiles/assets/141697122/856c0589-8f9b-4603-9073-f7d060f342aa)
 
-**Fig. 1:** Graphical illustration of this study. (A) Target nucleic acids are immobilized on a gold-glass interface. Small molecules will flow through the immobilized targets to reach the binding equivalence in phase 1 and be washed out from the bound state in phase 2. The corresponding association and dissociation constants are denoted as Kon and Koff, respectively.
+**Fig. 1 ** Graphical illustration of this study. (A) Target nucleic acids are immobilized on a gold-glass interface. Small molecules flow through the immobilized targets, binding in phase 1 and washing out in phase 2. Kon and Koff represent the association and dissociation constants, respectively.
 
 ### Clustering SPR Profiles
 
-Through clustering techniques, we can group similar SPR profiles, revealing patterns and trends that might be missed in individual analysis.
+Clustering techniques group similar SPR profiles, revealing patterns and trends that might be missed with individual analysis.
 
 ![Clustering Image](https://github.com/chen26sanken/Clustering_with_SPR_profiles/assets/141697122/28bb41e7-70f9-4806-8edc-1418d620575c)
 
-**Fig. 2:** The observed SPR sensorgrams which include the binding kinetic features are grouped by clustering algorithms into different patterns. Only hit patterns are shown here.
+**Fig. 2 ** The observed SPR sensorgrams, which include binding kinetic features, are grouped by clustering algorithms into different patterns. Only hit patterns are displayed here.
+
+### Code and Results 
+
+The code accompanying this manuscript processes raw SPR data, applies clustering algorithms, and visualizes the results. The outcomes are a series of clustered hit patterns that showcase various binding behaviors of small molecules to the CAG repeat DNA.
+
+![clustering_hits](https://github.com/chen26sanken/Clustering_with_SPR_profiles/assets/141697122/78b409e9-1c26-402c-b80a-38dc46107013)
+
+**Fig. 3 ** SPR profiles in hit clusters. The different clusters represent varying kinetic behaviors of small molecules binding to CAG repeat DNA. Detailed insights from the results can be found in the accompanying manuscript.
 
 ## Installation Instructions
 
-To reproduce the analysis and visualizations in this repository, you'll need to install some software packages. The list below provides the names and versions required:
+To reproduce the analysis and visualizations, install the required software packages:
 
 - `matplotlib` ~3.5.3
 - `pandas` ~1.5.1
@@ -33,7 +41,7 @@ To reproduce the analysis and visualizations in this repository, you'll need to 
 - `scipy` ~1.9.3
 - `pypdf2` ~3.0.1
 
-To install all these packages at once, run:
+Use this command:
 
 ```bash
 pip install matplotlib~=3.5.3 pandas~=1.5.1 scikit-learn~=1.1.3 numpy~=1.23.4 tslearn~=0.5.2 seaborn~=0.12.2 scipy~=1.9.3 pypdf2~=3.0.1
