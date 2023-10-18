@@ -1,9 +1,9 @@
 # Deciphering the Hit Patterns on SPR Sensorgrams of Small Molecules Targeting CAG Repeat DNA via Clustering
 
-## SPR assay
+## The concept of SPR assay
 ![SPR](https://github.com/chen26sanken/Clustering_with_SPR_profiles/assets/141697122/856c0589-8f9b-4603-9073-f7d060f342aa)
 
-## Clustering
+## Clustering on SPR profiles
 ![clustering](https://github.com/chen26sanken/Clustering_with_SPR_profiles/assets/141697122/28bb41e7-70f9-4806-8edc-1418d620575c)
 
 ## Installation
