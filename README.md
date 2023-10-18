@@ -1,6 +1,7 @@
 # Deciphering the Hit Patterns on SPR Sensorgrams of Small Molecules Targeting CAG Repeat DNA
 
-This repository presents an analysis of hit patterns on SPR sensorgrams for small molecules that target CAG repeat DNA. The main objective is to cluster and categorize these hit patterns for a better understanding and prediction.
+This repository presents an analysis of hit patterns on SPR sensorgrams for small molecules that target CAG repeat DNA. 
+The study developed a clustering-based approach for grouping surface plasmon resonance (SPR) sensorgrams based on the kinetic features to identify potential hit compounds in screening. Our method successfully distinguished 220 hits with four patterns targeting CAG repeat DNA from all 2000 samples. 
 
 ## Overview
 
