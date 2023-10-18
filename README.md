@@ -8,7 +8,7 @@ This repository presents an analysis of hit patterns on SPR sensorgrams for smal
 
 Surface Plasmon Resonance (SPR) is a powerful tool for analyzing molecular interactions in real time. The assay provides insights into reaction dynamics, making it invaluable in molecular biology and pharmacology.
 
-![SPR Image](https://github.com/chen26sanken/Clustering_with_SPR_profiles/assets/141697122/856c0589-8f9b-4603-9073-f7d060f342aa)
+![SPR](https://github.com/chen26sanken/Clustering_with_SPR_profiles/assets/141697122/fa70fad9-b79c-40a2-8a8e-7257cd98b50e)
 **Fig. 1:** Graphical illustration of this study. (A) Target nucleic acids are immobilized on a gold-glass interface. Small molecules flow through the immobilized targets, binding in phase 1 and washing out in phase 2. Kon and Koff represent the association and dissociation constants, respectively.
 
 ### Clustering SPR Profiles
