@@ -8,5 +8,11 @@ Deciphering the Hit Patterns on SPR Sensorgrams of Small Molecules Targeting CAG
 
 This manuscript contains code that requires certain packages. Ensure you have the following packages installed:
 
-```bash
-pip install matplotlib~=3.5.3 pandas~=1.5.1 scikit-learn~=1.1.3 numpy~=1.23.4 tslearn~=0.5.2 seaborn~=0.12.2 scipy~=1.9.3 pypdf2~=3.0.1
+- `matplotlib` version ~3.5.3
+- `pandas` version ~1.5.1
+- `scikit-learn` version ~1.1.3
+- `numpy` version ~1.23.4
+- `tslearn` version ~0.5.2
+- `seaborn` version ~0.12.2
+- `scipy` version ~1.9.3
+- `pypdf2` version ~3.0.1
