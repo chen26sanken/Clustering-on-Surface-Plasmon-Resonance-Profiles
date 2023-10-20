@@ -7,7 +7,7 @@ The study developed a clustering-based approach for grouping surface plasmon res
 
 ### The Concept of SPR Assay and clustering on SPR Profiles
 
-Surface Plasmon Resonance (SPR) is a powerful tool for analyzing molecular interactions in real time. The assay provides insights into reaction dynamics, making it invaluable in molecular biology and pharmacology. Clustering techniques group similar SPR profiles, revealing patterns and trends that might be missed with individual analysis.
+Surface Plasmon Resonance (SPR) is a powerful tool for analyzing molecular interactions in real time. The assay provides insights into reaction dynamics, making it invaluable in molecular biology and pharmacology. With the clustering techniques, we could identify similar SPR profiles, which reveals patterns and trends that might be missed with individual analysis of the SPR assay.
 
 ![figure1_SPR_clustering](https://github.com/chen26sanken/Clustering_with_SPR_profiles/assets/141697122/36b4b194-a66b-466c-9c4c-ca6f96395a0d)
 **Fig. 1:** Graphical illustration of this study. (A) Target nucleic acids are immobilized on a gold-glass interface. Small molecules flow through the immobilized targets, binding in phase 1 and washing out in phase 2. Kon and Koff represent the association and dissociation constants, respectively. (B) The observed SPR sensorgrams, which include binding kinetic features, are grouped by clustering algorithms into different patterns. Only hit patterns are displayed here.
